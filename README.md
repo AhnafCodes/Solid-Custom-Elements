@@ -13,7 +13,10 @@ This is a simple demonstration of using Solid.js custom elements directly in the
 
 ## Usage
 
-Simply serve the files using any HTTP server and open the index.html in a modern browser.
+Simply serve the files using any HTTP server and open the index.html in a modern browser
+
+## Demo
+https://solid-custom-elements.pages.dev/
 
 ### Custom Elements
 
