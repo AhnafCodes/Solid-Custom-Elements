@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solid.js Custom Element Demo</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "solid-js": "https://cdn.skypack.dev/solid-js",
+                "html": "https://cdn.skypack.dev/solid-js/html",
+                "solid-element": "https://cdn.skypack.dev/solid-element"
+            }
+        }
+    </script>
+    <script type="module" src="./components/counter-element.js"></script>
+    <script type="module" src="./components/greeting-element.js"></script>
+</head>
+<body>
+    <h1>Solid.js Custom Elements Demo</h1>
+    
+    <!-- Using our custom elements -->
+    <solid-counter initial-count="5"></solid-counter>
+    <solid-greeting name="World"></solid-greeting>
+</body>
+</html>
