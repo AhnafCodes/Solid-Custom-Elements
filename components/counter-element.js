@@ -2,7 +2,6 @@ import { customElement } from 'solid-element';
 import { createSignal } from 'solid-js';
 import  html  from 'html';
 
-console.log(html)
 // Counter Custom Element
 customElement(
   'solid-counter',
