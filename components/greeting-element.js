@@ -2,7 +2,6 @@ import { customElement } from 'solid-element';
 import { createSignal } from 'solid-js';
 import  html  from 'html';
 
-console.log(html)
 // Greeting Custom Element
 customElement(
   'solid-greeting',
